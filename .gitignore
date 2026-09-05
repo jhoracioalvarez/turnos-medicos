@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+
+# Salidas de compilación
+/dist/
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Cobertura / testing
+coverage/
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos de TypeScript generados
+*.tsbuildinfo

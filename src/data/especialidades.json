@@ -1,0 +1,152 @@
+[
+  {
+    "Especialidad": 1,
+    "nombreEspecialidad": "Clínica Médica",
+    "activa": true
+  },
+  {
+    "Especialidad": 2,
+    "nombreEspecialidad": "Cardiología",
+    "activa": true
+  },
+  {
+    "Especialidad": 3,
+    "nombreEspecialidad": "Dermatología",
+    "activa": true
+  },
+  {
+    "Especialidad": 4,
+    "nombreEspecialidad": "Pediatría",
+    "activa": true
+  },
+  {
+    "Especialidad": 5,
+    "nombreEspecialidad": "Ginecología",
+    "activa": true
+  },
+  {
+    "Especialidad": 6,
+    "nombreEspecialidad": "Obstetricia",
+    "activa": true
+  },
+  {
+    "Especialidad": 7,
+    "nombreEspecialidad": "Traumatología",
+    "activa": true
+  },
+  {
+    "Especialidad": 8,
+    "nombreEspecialidad": "Oftalmología",
+    "activa": true
+  },
+  {
+    "Especialidad": 9,
+    "nombreEspecialidad": "Otorrinolaringología",
+    "activa": true
+  },
+  {
+    "Especialidad": 10,
+    "nombreEspecialidad": "Neurología",
+    "activa": true
+  },
+  {
+    "Especialidad": 11,
+    "nombreEspecialidad": "Neurocirugía",
+    "activa": true
+  },
+  {
+    "Especialidad": 12,
+    "nombreEspecialidad": "Urología",
+    "activa": true
+  },
+  {
+    "Especialidad": 13,
+    "nombreEspecialidad": "Endocrinología",
+    "activa": true
+  },
+  {
+    "Especialidad": 14,
+    "nombreEspecialidad": "Gastroenterología",
+    "activa": true
+  },
+  {
+    "Especialidad": 15,
+    "nombreEspecialidad": "Neumonología",
+    "activa": true
+  },
+  {
+    "Especialidad": 16,
+    "nombreEspecialidad": "Nefrología",
+    "activa": true
+  },
+  {
+    "Especialidad": 17,
+    "nombreEspecialidad": "Oncología",
+    "activa": true
+  },
+  {
+    "Especialidad": 18,
+    "nombreEspecialidad": "Psiquiatría",
+    "activa": true
+  },
+  {
+    "Especialidad": 19,
+    "nombreEspecialidad": "Psicología",
+    "activa": true
+  },
+  {
+    "Especialidad": 20,
+    "nombreEspecialidad": "Reumatología",
+    "activa": true
+  },
+  {
+    "Especialidad": 21,
+    "nombreEspecialidad": "Hematología",
+    "activa": true
+  },
+  {
+    "Especialidad": 22,
+    "nombreEspecialidad": "Infectología",
+    "activa": true
+  },
+  {
+    "Especialidad": 23,
+    "nombreEspecialidad": "Cirugía General",
+    "activa": true
+  },
+  {
+    "Especialidad": 24,
+    "nombreEspecialidad": "Cirugía Cardiovascular",
+    "activa": true
+  },
+  {
+    "Especialidad": 25,
+    "nombreEspecialidad": "Cirugía Plástica",
+    "activa": true
+  },
+  {
+    "Especialidad": 26,
+    "nombreEspecialidad": "Anestesiología",
+    "activa": true
+  },
+  {
+    "Especialidad": 27,
+    "nombreEspecialidad": "Radiología",
+    "activa": true
+  },
+  {
+    "Especialidad": 28,
+    "nombreEspecialidad": "Diagnóstico por Imágenes",
+    "activa": true
+  },
+  {
+    "Especialidad": 29,
+    "nombreEspecialidad": "Medicina Familiar",
+    "activa": true
+  },
+  {
+    "Especialidad": 30,
+    "nombreEspecialidad": "Medicina Laboral",
+    "activa": false
+  }
+]
