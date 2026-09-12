@@ -1,152 +1,182 @@
 [
   {
-    "Especialidad": 1,
-    "nombreEspecialidad": "Clínica Médica",
-    "activa": true
+    "profesionalId": 1,
+    "nombre": "Dr. Juan Pérez",
+    "especialidad": "Clínica Médica",
+    "activo": true
   },
   {
-    "Especialidad": 2,
-    "nombreEspecialidad": "Cardiología",
-    "activa": true
+    "profesionalId": 2,
+    "nombre": "Dra. María González",
+    "especialidad": "Cardiología",
+    "activo": true
   },
   {
-    "Especialidad": 3,
-    "nombreEspecialidad": "Dermatología",
-    "activa": true
+    "profesionalId": 3,
+    "nombre": "Dr. Carlos Rodríguez",
+    "especialidad": "Dermatología",
+    "activo": true
   },
   {
-    "Especialidad": 4,
-    "nombreEspecialidad": "Pediatría",
-    "activa": true
+    "profesionalId": 4,
+    "nombre": "Dra. Laura Fernández",
+    "especialidad": "Pediatría",
+    "activo": true
   },
   {
-    "Especialidad": 5,
-    "nombreEspecialidad": "Ginecología",
-    "activa": true
+    "profesionalId": 5,
+    "nombre": "Dra. Ana Martínez",
+    "especialidad": "Ginecología",
+    "activo": true
   },
   {
-    "Especialidad": 6,
-    "nombreEspecialidad": "Obstetricia",
-    "activa": true
+    "profesionalId": 6,
+    "nombre": "Dra. Sofía López",
+    "especialidad": "Obstetricia",
+    "activo": true
   },
   {
-    "Especialidad": 7,
-    "nombreEspecialidad": "Traumatología",
-    "activa": true
+    "profesionalId": 7,
+    "nombre": "Dr. Martín Sánchez",
+    "especialidad": "Traumatología",
+    "activo": true
   },
   {
-    "Especialidad": 8,
-    "nombreEspecialidad": "Oftalmología",
-    "activa": true
+    "profesionalId": 8,
+    "nombre": "Dra. Carolina Romero",
+    "especialidad": "Oftalmología",
+    "activo": true
   },
   {
-    "Especialidad": 9,
-    "nombreEspecialidad": "Otorrinolaringología",
-    "activa": true
+    "profesionalId": 9,
+    "nombre": "Dr. Diego Torres",
+    "especialidad": "Otorrinolaringología",
+    "activo": true
   },
   {
-    "Especialidad": 10,
-    "nombreEspecialidad": "Neurología",
-    "activa": true
+    "profesionalId": 10,
+    "nombre": "Dra. Gabriela Ruiz",
+    "especialidad": "Neurología",
+    "activo": true
   },
   {
-    "Especialidad": 11,
-    "nombreEspecialidad": "Neurocirugía",
-    "activa": true
+    "profesionalId": 11,
+    "nombre": "Dr. Federico Álvarez",
+    "especialidad": "Neurocirugía",
+    "activo": true
   },
   {
-    "Especialidad": 12,
-    "nombreEspecialidad": "Urología",
-    "activa": true
+    "profesionalId": 12,
+    "nombre": "Dr. Nicolás Castro",
+    "especialidad": "Urología",
+    "activo": true
   },
   {
-    "Especialidad": 13,
-    "nombreEspecialidad": "Endocrinología",
-    "activa": true
+    "profesionalId": 13,
+    "nombre": "Dra. Valentina Morales",
+    "especialidad": "Endocrinología",
+    "activo": true
   },
   {
-    "Especialidad": 14,
-    "nombreEspecialidad": "Gastroenterología",
-    "activa": true
+    "profesionalId": 14,
+    "nombre": "Dr. Sebastián Ortiz",
+    "especialidad": "Gastroenterología",
+    "activo": true
   },
   {
-    "Especialidad": 15,
-    "nombreEspecialidad": "Neumonología",
-    "activa": true
+    "profesionalId": 15,
+    "nombre": "Dra. Mariana Silva",
+    "especialidad": "Neumonología",
+    "activo": true
   },
   {
-    "Especialidad": 16,
-    "nombreEspecialidad": "Nefrología",
-    "activa": true
+    "profesionalId": 16,
+    "nombre": "Dr. Pablo Ramírez",
+    "especialidad": "Nefrología",
+    "activo": true
   },
   {
-    "Especialidad": 17,
-    "nombreEspecialidad": "Oncología",
-    "activa": true
+    "profesionalId": 17,
+    "nombre": "Dra. Verónica Acosta",
+    "especialidad": "Oncología",
+    "activo": true
   },
   {
-    "Especialidad": 18,
-    "nombreEspecialidad": "Psiquiatría",
-    "activa": true
+    "profesionalId": 18,
+    "nombre": "Dr. Andrés Molina",
+    "especialidad": "Psiquiatría",
+    "activo": true
   },
   {
-    "Especialidad": 19,
-    "nombreEspecialidad": "Psicología",
-    "activa": true
+    "profesionalId": 19,
+    "nombre": "Lic. Paula Benítez",
+    "especialidad": "Psicología",
+    "activo": true
   },
   {
-    "Especialidad": 20,
-    "nombreEspecialidad": "Reumatología",
-    "activa": true
+    "profesionalId": 20,
+    "nombre": "Dra. Natalia Herrera",
+    "especialidad": "Reumatología",
+    "activo": true
   },
   {
-    "Especialidad": 21,
-    "nombreEspecialidad": "Hematología",
-    "activa": true
+    "profesionalId": 21,
+    "nombre": "Dr. Ricardo Medina",
+    "especialidad": "Hematología",
+    "activo": true
   },
   {
-    "Especialidad": 22,
-    "nombreEspecialidad": "Infectología",
-    "activa": true
+    "profesionalId": 22,
+    "nombre": "Dra. Julieta Navarro",
+    "especialidad": "Infectología",
+    "activo": true
   },
   {
-    "Especialidad": 23,
-    "nombreEspecialidad": "Cirugía General",
-    "activa": true
+    "profesionalId": 23,
+    "nombre": "Dr. Alejandro Domínguez",
+    "especialidad": "Cirugía General",
+    "activo": true
   },
   {
-    "Especialidad": 24,
-    "nombreEspecialidad": "Cirugía Cardiovascular",
-    "activa": true
+    "profesionalId": 24,
+    "nombre": "Dr. Marcelo Cabrera",
+    "especialidad": "Cirugía Cardiovascular",
+    "activo": true
   },
   {
-    "Especialidad": 25,
-    "nombreEspecialidad": "Cirugía Plástica",
-    "activa": true
+    "profesionalId": 25,
+    "nombre": "Dra. Florencia Vázquez",
+    "especialidad": "Cirugía Plástica",
+    "activo": true
   },
   {
-    "Especialidad": 26,
-    "nombreEspecialidad": "Anestesiología",
-    "activa": true
+    "profesionalId": 26,
+    "nombre": "Dr. Hernán Giménez",
+    "especialidad": "Anestesiología",
+    "activo": true
   },
   {
-    "Especialidad": 27,
-    "nombreEspecialidad": "Radiología",
-    "activa": true
+    "profesionalId": 27,
+    "nombre": "Dra. Daniela Suárez",
+    "especialidad": "Radiología",
+    "activo": true
   },
   {
-    "Especialidad": 28,
-    "nombreEspecialidad": "Diagnóstico por Imágenes",
-    "activa": true
+    "profesionalId": 28,
+    "nombre": "Dr. Ignacio Ríos",
+    "especialidad": "Diagnóstico por Imágenes",
+    "activo": true
   },
   {
-    "Especialidad": 29,
-    "nombreEspecialidad": "Medicina Familiar",
-    "activa": true
+    "profesionalId": 29,
+    "nombre": "Dra. Belén Peralta",
+    "especialidad": "Medicina Familiar",
+    "activo": true
   },
   {
-    "Especialidad": 30,
-    "nombreEspecialidad": "Medicina Laboral",
-    "activa": false
+    "profesionalId": 30,
+    "nombre": "Dr. Roberto Figueroa",
+    "especialidad": "Medicina Laboral",
+    "activo": false
   }
 ]
