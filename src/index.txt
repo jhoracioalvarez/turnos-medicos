@@ -1,0 +1,10 @@
+Lista de Tareas:
+✅ Declarar todas las funciones de endpoints como asincronicas.
+✅ agregar return en cada response.
+✅ validar bloques try-catch en cada funcion de endpoint
+✅ controlar errores usando throw new Error()
+- variable de codigo de estado global 'statusCode'
+- modificar los endpoints en cada Entidad ingregando cada funcion en un controlador de Entidades
+-- Pruebas con POSTMAN
+    -- pruebas efectivas
+    -- pruebas forzadas al error
