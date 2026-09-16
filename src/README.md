@@ -1,20 +1,10 @@
 # Turnos Médicos
 
-Proyecto en TypeScript para gestionar la configuración base de una agenda médica, junto con la información de profesionales y especialidades disponibles.
+API REST en TypeScript para gestionar turnos médicos, especialidades y profesionales.
 
 ## Descripción
 
-La aplicación carga desde archivos JSON la lista de profesionales y especialidades del sistema, y expone también la configuración general de la agenda. El punto de entrada principal es [src/index.ts](../src/index.ts), que imprime en consola los datos cargados para poder validarlos rápidamente.
-
-## Funcionalidad principal
-
-- Carga la configuración de la agenda con:
-  - fecha máxima disponible
-  - hora mínima y máxima
-- Lee la información de profesionales desde [src/data/profesionales.json](data/profesionales.json)
-- Lee la información de especialidades desde [src/data/especialidades.json](data/especialidades.json)
-- Exporta los datos para ser consumidos desde otras partes del proyecto
-- Muestra la información por consola en formato de tabla para facilitar la revisión
+Este proyecto utiliza Express para exponer endpoints HTTP sobre información almacenada en archivos JSON. La aplicación carga la configuración de la agenda y los datos de profesionales/especialidades para poder ser consultados y modificados desde un backend simple.
 
 ## Estructura del proyecto
 
@@ -22,38 +12,82 @@ La aplicación carga desde archivos JSON la lista de profesionales y especialida
 turnos-medicos/
 ├── package.json
 ├── tsconfig.json
-├── .gitignore
 ├── src/
 │   ├── index.ts
 │   ├── resources.ts
-│   ├── README.md
-│   └── data/
-│       ├── profesionales.json
-│       └── especialidades.json
-└── dist/    # generado al compilar
+│   ├── controller/
+│   │   ├── especialidades.controller.ts
+│   │   ├── profesionales.controller.ts
+│   │   └── general.controller.ts
+│   ├── data/
+│   │   ├── profesionales.json
+│   │   └── especialidades.json
+│   └── README.md
+└── dist/   # generado por TypeScript
 ```
+
+## Tecnologías
+
+- Node.js
+- TypeScript
+- Express
+- JSON como fuente de datos
+
+## Endpoints disponibles
+
+### General
+
+- GET /
+  - devuelve un mensaje de bienvenida
+
+### Especialidades
+
+- GET /especialidades
+  - retorna todas las especialidades activas
+- GET /especialidades/:id
+  - busca una especialidad por ID
+- POST /especialidades
+  - crea una nueva especialidad
+- DELETE /especialidades/:id
+  - desactiva una especialidad
+
+### Profesionales
+
+- GET /profesionales
+  - retorna los profesionales activos
+- GET /profesionales/:id
+  - busca un profesional por ID
+- POST /profesionales
+  - crea un nuevo profesional
+- PUT /profesionales/:id
+  - modifica un profesional existente
+- DELETE /profesionales/:id
+  - desactiva un profesional
 
 ## Archivos importantes
 
 ### src/index.ts
-Es el punto de entrada de la aplicación. Aquí se importan los datos y se muestran en consola.
+Punto de entrada de la aplicación. Aquí se registran los middlewares y los endpoints de la API.
 
 ### src/resources.ts
-Se encarga de:
-- localizar los archivos JSON dentro de src/data
-- leer su contenido con fs/promises
-- convertirlos a objetos JavaScript con JSON.parse
-- exportar las constantes `arrayProfesionales`, `arrayEspecialidades` y `configuracionAgenda`
+Carga los archivos JSON desde [src/data](data) y exporta las colecciones y la configuración general:
 
-### src/data/profesionales.json
-Contiene la base de datos de profesionales médicos.
+- arrayProfesionales
+- arrayEspecialidades
+- configuracionAgenda
 
-### src/data/especialidades.json
-Contiene la lista de especialidades médicas disponibles.
+### src/controller/especialidades.controller.ts
+Lógica para consultar, crear y borrar especialidades.
+
+### src/controller/profesionales.controller.ts
+Lógica para consultar, crear, modificar y borrar profesionales.
+
+### src/controller/general.controller.ts
+Controlador de respuestas generales, como la ruta no encontrada y el hello world.
 
 ## Requisitos
 
-- Node.js
+- Node.js 18 o superior
 - npm
 
 ## Instalación
@@ -64,27 +98,43 @@ npm install
 
 ## Ejecución
 
-Para ejecutar el proyecto en modo desarrollo:
+### Modo desarrollo
 
 ```bash
 npm run dev
 ```
 
-Esto ejecuta el archivo principal en [src/index.ts](../src/index.ts) y mantiene la vigilancia de cambios.
+Esto inicia la API con supervisión de cambios.
 
-También puede compilarse con:
+### Compilar
 
 ```bash
 npm run build
 ```
 
-Y ejecutarse luego en producción con:
+### Ejecutar versión compilada
 
 ```bash
 npm start
 ```
 
+## Puesto por defecto
+
+La aplicación escucha en:
+
+```text
+http://localhost:3000
+```
+
+## Ejemplos
+
+```bash
+curl http://localhost:3000/especialidades
+curl http://localhost:3000/especialidades/1
+curl http://localhost:3000/profesionales
+```
+
 ## Notas
 
-Este proyecto está orientado a trabajar con datos estáticos en formato JSON, ideal para pruebas, validación de estructuras de agenda y carga inicial de información.
+Los datos se manejan como archivos JSON en [src/data](data), por lo que el proyecto sirve como base para pruebas, prototipos y desarrollo de APIs médicas sin persistencia en base de datos.
 
